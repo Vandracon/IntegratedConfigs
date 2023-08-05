@@ -199,7 +199,7 @@ namespace IntegratedConfigs.Harmony
             bool _isStartup,
             WorldStaticData.ProgressDelegate _progressDelegate)
         {
-            Log.Out($"{Globals.LOG_TAG} Loading all {Harmony_WorldStaticData.XmlsToLoad.Count.ToString()} custom XMLs");
+            Log.Out($"{Globals.LOG_TAG} Loading {Harmony_WorldStaticData.XmlsToLoad.Count.ToString()} custom XMLs");
             using (MemoryStream memStream = new MemoryStream())
             {
                 DeflateOutputStream zipStream = new DeflateOutputStream(memStream, 3);
