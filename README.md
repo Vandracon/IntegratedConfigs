@@ -6,6 +6,8 @@ the same XML config values as they will pull from server values.
 
 This mod was developed against 7D2D Alpha 21
 
+Confirmed to work with 1.0, 1.1, 1.2 via the Rebirth overhaul mod.
+
 ***Works with Singleplayer, In-Game hosting, and Dedicated servers.***
 
 ***Must exist on Server (if there is one) AND Client.***
